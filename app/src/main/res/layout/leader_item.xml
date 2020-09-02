@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:background="@drawable/category_background"
+    android:backgroundTint="#ffffff"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/LeaderName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="LeaderName"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/LeaderScore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Score"
+            android:layout_marginStart="8dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=" Out Of "
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical">
+        </TextView>
+
+        <TextView
+            android:id="@+id/LeaderTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Total"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical">
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/LeaderRankview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rank : "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/LeaderRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

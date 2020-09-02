@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".UploadCv">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+<!--        <ImageView-->
+<!--            android:layout_width="400dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:src="@drawable/resume"-->
+<!--            android:layout_gravity="center">-->
+
+<!--        </ImageView>-->
+
+        <TextView
+            android:id="@+id/noFile"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No File Selected!!"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#ffffff">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/Choose_CV"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Select File"
+            android:layout_margin="15dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_edit">
+
+        </Button>
+
+        <Button
+            android:id="@+id/submit_CV"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginBottom="10dp"
+            android:textSize="15dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_edit">
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>

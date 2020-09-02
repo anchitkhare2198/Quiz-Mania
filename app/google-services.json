@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "568143603663",
+    "firebase_url": "https://quiz-mania-b6ce4.firebaseio.com",
+    "project_id": "quiz-mania-b6ce4",
+    "storage_bucket": "quiz-mania-b6ce4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568143603663:android:16ad6a69d89e224e2f54ba",
+        "android_client_info": {
+          "package_name": "com.example.quizmania"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568143603663-9sthbm2d5nfjjbcrtb6olkrq1380h7qk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWbBa-pccBNifaWOQf_TS5sJDKMOqOo-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568143603663-9sthbm2d5nfjjbcrtb6olkrq1380h7qk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

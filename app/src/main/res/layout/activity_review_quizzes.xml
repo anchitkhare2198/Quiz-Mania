@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ReviewQuizzes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="220dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Review Your Quizzes."
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:gravity="center">
+
+        </TextView>
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/review"
+            android:padding="10dp"
+            android:background="@drawable/edit_text_border"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Write here in not more than 20 words."
+            android:maxLength="150"
+            android:inputType="textMultiLine"
+            android:maxLines="6"/>
+
+
+        <Button
+            android:id="@+id/submit_review"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center"
+            android:background="@drawable/button_edit">
+
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>

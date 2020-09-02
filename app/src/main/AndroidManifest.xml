@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizmania">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_icon3"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_icon3_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PdfView"></activity>
+        <activity android:name=".UploadCv" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".ReviewQuizzes" />
+        <activity android:name=".FAQs" />
+        <activity android:name=".AboutUS" />
+        <activity android:name=".Directory_Display" />
+        <activity android:name=".Profile_Activity" />
+        <activity android:name=".LeaderBoard_Subject" />
+        <activity android:name=".Subject_Select_LeaderBoard" />
+        <activity android:name=".LeaderBoard" />
+        <activity android:name=".PreviousScore" />
+        <activity android:name=".Bookmark" />
+        <activity android:name=".Score" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Questions" />
+        <activity android:name=".Chapters" />
+        <activity android:name=".Categories" />
+        <activity android:name=".Login_Acitivity" />
+        <activity android:name=".Page1" />
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".GenericFileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>
